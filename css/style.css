@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+:root{
+    --color-general: #4f79d6;
+    --color-secundario: #d5ff55;
+    --color-resalte: #b980fa;
+}
+
+body{
+    font-family: "dosis";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sticky-top{
+    background-color: #d5ff55;
+}
+
+header img{
+    height: 50px;
+    padding: 0 10px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+.subtitulos{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "glass antiqua";
+    font-size: 60px;
+}
+#proyecto h2{
+    color: #fff;
+}
+#servicio h2{
+    color: var(--color-resalte);
+}
+#contacto h2{
+    color: var(--color-secundario);
+}
+
+
+/*Sección de acerca de mi*/
+#hero{
+    background-color: var(--color-general);
+    padding: 4%;
+    margin: 2%;
+    border-radius: 90px 0;
+}
+#hero h1{
+    font-family: "glass antiqua";
+    font-size: 100px;
+    color: var(--color-secundario);
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 100px;
+}
+#hero p{
+    color: #fff;
+    padding: 0 50px;
+}
+#hero img{
+    border-radius: 90px 0;
+    border: solid 15px #d5ff55;
+}
+
+
+/*Sección de servicios*/
+#servicio{
+    padding: 8%;
+    background-image: url(../img/flor-fondo.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cuadro-ser{
+    background-color: var(--color-secundario);
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+#servicio ul{
+    list-style: circle !important;
+    color: var(--color-general);
+}
+.sub-servicio{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: var(--color-general);
+}
+
+.icon{
+    height: 80px;
+}
+
+/*Sección de portafolio*/
+#proyecto{
+    padding: 5% 0;
+    background-color: #4f79d6;
+}
+
+.proyectos{
+    width: 500px !important;
+    padding: 25px; 
+}
+
+/*Sección de contacto*/
+#contacto{
+    padding: 5%;
+}
+#contacto h3{
+    text-align: center;
+    color: var(--color-secundario);
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.formulario{
+    background-color: var(--color-resalte);
+    padding: 5%;
+    border-radius: 50px;
+}
+.btn-enviar{
+    background-color: var(--color-secundario);
+    color: var(--color-resalte);
+    font-weight: 600;
+}
+.btn-enviar:hover{
+    border: solid 2px #d5ff55;
+    color: var(--color-secundario);
+}
+
+.form-control{
+    font-weight: 500;
+}
+
+#contacto img{
+    height: 500px;
+}
+
+.text-contact{
+    color: #fff;
+}
