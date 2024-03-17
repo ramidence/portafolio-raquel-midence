@@ -156,3 +156,8 @@ header img{
 .text-contact{
     color: #fff;
 }
+footer{
+    background-color: var(--color-resalte);
+    padding: 2%;
+    color: #fff;
+}
